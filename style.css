@@ -1,0 +1,293 @@
+  /*index.html*/ 
+  * {
+ margin: 0 ;
+ padding:  0 ;
+ font-family: sans-serif;
+
+ ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+
+
+}
+nav>ul{
+    display: flex;
+    list-style-type: none;
+
+
+}
+nav>ul>li{
+    padding: 15px;
+
+    
+}
+nav>ul>li>a{
+    color:  #fff;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+nav>a{
+    padding:  10px;
+    text-decoration: none;
+    color:  black;
+    background-color:white;
+    border-radius: 190px;
+    padding: 20px;
+
+
+}
+ 
+
+.logo{
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    cursor: pointer;
+    transform: translate(90px,10px);
+
+}
+body{
+    background-color: #000;
+}
+
+
+
+
+                                                        /* update*/
+
+
+.updates{
+     color: #fff;
+     font-size: 25px;
+     background-image: url("./image/update.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding: 25px;
+    
+    
+}
+.hes:hover{
+    color: skyblue;
+    
+}
+
+
+
+                                                           /* update bitdi */
+     
+    
+
+nav>ul>li>a:hover{
+    text-decoration: underline;
+
+
+}
+
+
+nav>a:hover{
+   color: blue;
+}
+
+.box{
+    width:500px;
+    height: 500px;
+    background-color:  #000e;
+    margin-top: 100px;
+    margin-left: 250px;
+    transform: translate(-10px, -200px);
+}
+.box>h1{
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-size: 71px;
+}
+.box>h2{
+    font-size: 16px;
+    color: #fff;
+    
+}
+.box .dowload{
+    margin-top:  50px;
+    
+  
+}
+ .box .dowload>a{
+     text-decoration: none;
+     color:#fff ;
+     background-color:  #2980b9;
+     padding: 20px;
+     border-radius: 10px;
+     transition: .5s;
+ }
+ 
+ .box .dowload>a:hover{
+  background-color: cornflowerblue;
+ }
+ .box .dowload>span{
+     color: #fff;
+     padding: 20px;
+
+                            /*Login*/
+ }
+ 
+ .logpage{
+     background-image: url("./image/aiden-c-rj-background.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     
+ }
+ .login-form{
+      background: rgba(0, 0, 0, 0.7);
+      min-width: 500px;
+      min-height: 240px;
+      color: #ecf0f1;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+ }
+
+ .h{
+     text-transform: uppercase;
+ }
+ .tpbox{
+     margin-top: 10px;
+     outline: none;
+     border-radius: 35px;
+     background: none;
+     color: #ecf0f1;
+     font-size: 17px;
+     padding:  9px;
+     border: 1px solid #ecf0f1; 
+     margin-top: 17px;
+     transition: .5s;
+ }
+ .tpbox:focus{
+    border :2px solid turquoise; 
+    font-size: 21px;
+
+ }
+ .button{
+     margin-top: 45px;
+     width: 180px;
+     height: 50px ;
+     font-size: 18px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     transition: 0.5s;
+ }
+ .button:hover{
+     background:transparent ;
+     border: 1px solid #ecf0f1;
+     color:#ecf0f1;
+
+    
+ }
+ .foto{
+   transform:translate(1000px, 200px);
+ }
+
+                    /*Destek*/
+
+.help{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./image/back\ imagess.png");
+    color:#222
+    ;
+}
+.container{
+align-items: center;
+transform: translate(60px,200px);
+background-color: rgba(255, 255, 255, 0.5);
+padding: 19px;
+
+
+}
+.destekcontrol{
+    padding: 5px;
+    position: relative;
+    
+}
+.destekcontrol input,.destekcontrol textarea{
+    padding: 3px;
+    width: 100%;
+    background: transparent;
+    border:0 ;
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    
+
+}
+.destekcontrol input[ type="submit"]{
+    background-color: rgb(85, 95, 83);
+    cursor: pointer;
+    
+}
+.destekcontrol input[ type="submit"]:hover {
+    background-color: rgb(241, 241, 241);
+}  
+
+
+}
+.hess{
+    transform: translate(70px,190px);
+    color: #fff;
+    
+
+}
+
+.destekcontrol input ~ label .destekcontrol textarea ~ label{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 3px ;
+}        
+
+.videos{
+    padding: 20px;
+    background-size: cover;
+    
+    
+}
+
+.discordac{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
